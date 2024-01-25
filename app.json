@@ -17,7 +17,11 @@
     "ios": {
       "supportsTablet": true
     },
+    "plugins":[
+      "@react-native-google-signin/google-signin"
+    ],
     "android": {
+      "package": "com.example.pwa",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8cfdd5c8-5edb-435b-96a7-768081206432"
+      }
     }
   }
 }
